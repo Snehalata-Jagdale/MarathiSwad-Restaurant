@@ -1,0 +1,60 @@
+
+/*Used gradients for background effects*/
+body{
+  background: linear-gradient(to left, rgb(240, 132, 132), rgb(246, 194, 98), #f1f1ad);
+}
+/*Making logo using text and font properties*/
+.logo{
+  text-align:left;
+  margin-bottom: 0px;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+ /*Using nav bar directly user got to homepage/ about/ and from order to contact page*/
+ nav{
+  display: grid;
+place-items:right;
+text-align: right;
+}
+nav ul{list-style-type: none;}
+nav ul a{
+display: inline-block;
+padding: 12px;
+font-weight: bold;
+text-decoration: none;
+color:#000;
+transition: 0.2s ease-in;
+font-size: 20px;
+}
+/*It's hover effect given to the nav bar list home, order & about items */
+nav ul a:hover{background-color: rgb(255, 18, 18);
+color: white;}
+/*Using multiple heading tag with different text and font-family properties*/
+h1{
+text-align: center;
+font-family:sans-serif;
+font-size: 40px;
+color:#ff4800;}
+h3{
+  text-align: center;
+  font-family: serif;
+  font-size: 25px;
+  color:rgb(172, 12, 159);
+}
+h4{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+p{
+  font-family:Nunito!important;
+}
+h2{
+text-align: center;
+justify-content: center;
+border: 1cm;
+font-size: 22px;
+font-family:sans-serif;
+}
+
+

@@ -1,0 +1,86 @@
+body{
+  background-image: url(./images/backimage.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*Making logo using text and font properties*/
+.logo{
+  text-align:left;
+  margin-bottom: 0px;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+h2{
+  font-family: monospace;
+  text-align: center;
+  font-size: 25px;
+  padding: 2px;
+}
+/*Making Form form taking information of user by using text and font properties*/
+.form{
+  display: flex;
+position: relative;
+justify-content: right;
+text-align: left;
+font-family: sans-serif;
+font-size: 15 px;
+margin-right: 50px;
+}
+/*Making Form using input type text for name,email,country filed*/
+input[type=text],
+select,
+textarea {
+display: flex;
+position: relative;
+font-family:'Times New Roman', Times, serif;
+text-align: left;
+width: 100%;
+padding: 8px;
+border: 1px solid #eeeeee;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 4px;
+margin-bottom: 20px;
+resize: vertical;
+}
+/*taking input type  umber for phoneNumber field*/
+input[type=number],
+select,
+textarea {
+display: flex;
+position: relative;
+font-family:'Times New Roman', Times, serif;
+text-align: left;
+width: 100%;
+padding: 8px;
+border: 1px solid #eeeeee;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 8px;
+margin-bottom: 20px;
+resize: vertical;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: orange;
+  color:black;
+  font-family:serif;
+  font-size: 20px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: hsl(13, 99%, 54%);
+}
+.container {
+  height: 50;
+  font-family: sans-serif;
+  width: 30%;
+  border-radius: 8px;
+  background-color: hsl(109, 85%, 74%);
+  padding: 15px;
+}
