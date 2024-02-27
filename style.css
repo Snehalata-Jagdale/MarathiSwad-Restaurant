@@ -1,7 +1,7 @@
 body{
 
 /*background imge*/
-background-image: url("/images/bcimage.jpg");
+background-image: url("./images/bcimage.jpg");
 background-repeat: no-repeat;
 
 /*Position of image is fixed even if scrolling*/
